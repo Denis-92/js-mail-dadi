@@ -17,11 +17,17 @@ const dadoUtente = Math.floor(Math.random() * 6 + 1);
 const dadoBot = Math.floor(Math.random() * 6 + 1);
 
 if (dadoBot > dadoUtente) {
-    console.log('Vince il bbot');
+    console.log('Dado utente', dadoUtente);
+    console.log('Dado bot', dadoBot);
+    console.log('Vince il bot');
 }
 if (dadoUtente > dadoBot) {
+    console.log('Dado utente', dadoUtente);
+    console.log('Dado bot', dadoBot);
     console.log('Vince il giocatore');
 }
 if (dadoBot === dadoUtente) {
+    console.log('Dado utente', dadoUtente);
+    console.log('Dado bot', dadoBot);
     console.log('Pareggio');
 }
